@@ -11,14 +11,14 @@
 
   <body style="margin: 0; overflow: hidden;">
     <a-scene
-      vr-mode-ui="enabled: false"
+      vr-mode-ui="enabled: true"
       embedded
-      arjs="sourceType: webcam; debugUIEnabled: false;"
+      arjs="sourceType: webcam; debugUIEnabled: true;"
     >
       <a-text
-        value="This content will always face you."
+        value="fabi hola."
         look-at="[gps-camera]"
-        scale="100 100 100"
+        scale="80 80 80"
         gps-entity-place="latitude: <add-your-latitude>; longitude: <add-your-longitude>;"
       ></a-text>
       <a-camera gps-camera rotation-reader> </a-camera>
